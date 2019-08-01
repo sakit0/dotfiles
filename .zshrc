@@ -36,9 +36,9 @@ export PATH=$GOPATH/src/github.com/cybozu-private/yakumo/tools/yakumo:$PATH
 export PATH=/usr/local/opt/mysql@5.7/bin:$PATH
 
 
-# Set Spaceship ZSH as a prompt
+# Set pure ZSH as a prompt
 autoload -U promptinit; promptinit
-prompt spaceship
+prompt pure
 
 # java
 
